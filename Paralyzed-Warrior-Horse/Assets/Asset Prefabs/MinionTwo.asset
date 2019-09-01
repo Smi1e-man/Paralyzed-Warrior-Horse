@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2913884628c984d748d2ec8166fea174, type: 3}
+  m_Name: MinionTwo
+  m_EditorClassIdentifier: 
+  _mainSprite: {fileID: 21300000, guid: fc781c7b9e62a4fddaa0040fbad401e2, type: 3}
+  _boostBalance: 15
+  _deltaBoostTime: 2

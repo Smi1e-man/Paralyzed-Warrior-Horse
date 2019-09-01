@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Temp/gradleOut/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,97",
+                        "endColumns": "43,65",
+                        "endOffsets": "94,160"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,67",
+                        "endOffsets": "96,164"
+                    }
+                },
+                {
+                    "source": "/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Temp/gradleOut/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "4,6,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "169,269,407",
+                        "endLines": "5,8,12",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "264,402,629"
+                    }
+                }
+            ]
+        }
+    ]
+}
