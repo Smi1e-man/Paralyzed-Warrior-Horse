@@ -1,4 +1,4 @@
-#Sun Sep 01 13:46:51 EEST 2019
+#Mon Sep 02 15:41:35 EEST 2019
 base.0=/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

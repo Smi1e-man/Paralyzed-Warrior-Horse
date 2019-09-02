@@ -29,7 +29,10 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Public Methods.
     /// </summary>
-    public void ClickOn() => BalancePlus(_currentModifier);
+    public float GetClickModifier()
+    {
+        return _currentModifier;
+    }
 
     public void ClickBuyModifier(float newCurrentModifier)
     {
@@ -49,11 +52,5 @@ public class GameManager : MonoBehaviour
     public float GetBalance()
     {
         return (_balanceBananas);
-    }
-
-    public void AddMinionPos(int count, Vector2 minionCoord)
-    {
-        var listTypeMinion = Resources.Load<BuyMinionSettings>("Settings/BuyMinionSettings").MinionCurrentPos;
-        listTypeMinion.Add(minionCoord);
     }
 }

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0e7ce61da1e4a828019b1acfb841d2, type: 3}
+  m_Name: TextBoostSpawnDataMinion
+  m_EditorClassIdentifier: 
+  _poolCount: 3
+  _dataBoost: {fileID: 11400000, guid: cccd6ea44c6324213984740fc7d2625e, type: 2}
+  _textBoostPrefab: {fileID: 6797147789576543810, guid: 94c8f56a73a794c8c84102f17a5a9dd9,
+    type: 3}

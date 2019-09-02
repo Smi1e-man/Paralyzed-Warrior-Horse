@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6797147789576543811}
   - component: {fileID: 6797147789576543809}
   - component: {fileID: 6797147789576543808}
+  - component: {fileID: 1909226754339044162}
   m_Layer: 5
   m_Name: TMP_textBoostPrefab
   m_TagString: Untagged
@@ -35,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 695.7, y: 147.7}
+  m_SizeDelta: {x: 755.5, y: 517.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6797147789576543809
 CanvasRenderer:
@@ -160,3 +161,15 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1909226754339044162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6797147789576543810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db749df5860614fbeafa8fa9359d5eca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

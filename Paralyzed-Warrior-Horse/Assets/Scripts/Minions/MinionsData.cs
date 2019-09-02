@@ -8,7 +8,7 @@ public class MinionsData : ScriptableObject
 {
     //private visual values
     [SerializeField] private Sprite _mainSprite;
-    [SerializeField] private GameObject _textBoost;
+    [SerializeField] private TextBoostSpawnerData _spawnerTextData;
     [SerializeField] private int _boostBalance;
     [SerializeField] private float _deltaBoostTime;
 
@@ -16,7 +16,7 @@ public class MinionsData : ScriptableObject
     /// Public Methods. 
     /// </summary>
     public Sprite MainSprite { get => _mainSprite; set => _mainSprite = value; }
-    public GameObject TextBoost { get => _textBoost; set => _textBoost = value; }
     public int BoostBalance { get => _boostBalance; set => _boostBalance = value; }
     public float DeltaBoostTime { get => _deltaBoostTime; set => _deltaBoostTime = value; }
+    public TextBoostSpawnerData SpawnerTextData { get => _spawnerTextData; set => _spawnerTextData = value; }
 }

@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class Minion : MonoBehaviour
 {
+    //visual private
+    [SerializeField] private TextBoostSpawnerData _spawnerTextData;
+    [SerializeField] private TextBoostSpawner _spawnerText;
     //private values
     private MinionsData _data;
 
     /// <summary>
     /// Private Methods.
     /// </summary>
+    private void Start()
+    {
+        _spawnerText.InitValue(_spawnerTextData);
+    }
     private IEnumerator BoostBalance()
     {
         while(true)
@@ -17,6 +24,7 @@ public class Minion : MonoBehaviour
             yield return new WaitForSeconds(_data.DeltaBoostTime);
             GameManager._Gm.BalancePlus(_data.BoostBalance);
             //animation number;
+            _spawnerText.AddText(_data.BoostBalance, transform.position);
         }
     }
 

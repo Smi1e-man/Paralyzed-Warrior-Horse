@@ -8,6 +8,9 @@ public class HorseController : MonoBehaviour
 {
     //private visual values
     [SerializeField] private float _timeRotate;
+    [SerializeField] private float _angleRotate;
+    [SerializeField] private TextBoostSpawnerData _spawnerTextData;
+    [SerializeField] private TextBoostSpawner _spawnerText;
 
     //private values
     private Vector3 _toRotate;
@@ -15,15 +18,18 @@ public class HorseController : MonoBehaviour
     /// <summary>
     /// Private Methods.
     /// </summary>
-    private void Awake()
+    private void Start()
     {
-        _toRotate = new Vector3(0f, 0f, -90f);
+        _toRotate = new Vector3(0f, 0f, _angleRotate);
+        _spawnerText.InitValue(_spawnerTextData);
     }
 
     private void OnMouseDown()
     {
-        GameManager._Gm.ClickOn();
+        float currenMod = GameManager._Gm.GetClickModifier();
+        GameManager._Gm.BalancePlus(currenMod);
         transform.DORotate( _toRotate, _timeRotate, RotateMode.WorldAxisAdd);
         //animation text
+        _spawnerText.AddText(currenMod, transform.position);
     }
 }

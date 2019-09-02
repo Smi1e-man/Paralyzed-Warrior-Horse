@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Sep 01 13:46:52 EEST 2019
+#Mon Sep 02 15:41:37 EEST 2019
 124.path=bin/Data/Managed/UnityEngine.Networking.dll
 60.set=ASSET
 52.set=ASSET
