@@ -33,6 +33,7 @@ public class MinionSpawner : MonoBehaviour
             _minions.Add(prefab, script);
             _currentMinions.Enqueue(prefab);
         }
+        //Spawn Minion when Click BuyMinionButton
         BuyMinionManager.AddMinion += SpawnMinion;
     }
 
@@ -49,17 +50,14 @@ public class MinionSpawner : MonoBehaviour
             //rand position in minion zone
             float posX = Random.Range(-_borderWidth, _borderWidth);
             float posY = Random.Range(-_borderHeight, _borderHeight);
-
             Vector2 _newCoord = new Vector2(posX, posY);
+
+            //save pos and dataNb
+            GameManager._Gm.SetCoordsMinion(_newCoord);
+            GameManager._Gm.SetDataNbMinions(rand);
 
             minion.transform.localPosition = _newCoord;
             script.ValueInit(_minionsData[rand]);
 		}
-    }
-
-    private void ReturnMinion(GameObject minion)
-    {
-        minion.SetActive(false);
-        _currentMinions.Enqueue(minion);
     }
 }

@@ -37,7 +37,8 @@ public class ScoreManager : MonoBehaviour
         while(true)
         {
             yield return new WaitForSeconds(1);
-            _textBalanceBananas.text = GameManager._Gm.GetBalance().ToString("F0");
+            float balance = GameManager._Gm.BalanceBananas;
+            _textBalanceBananas.text = balance.ToString("F0");
         }
     }
 

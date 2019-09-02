@@ -69,6 +69,7 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameSettings\BuyMinionSettings.cs" />
+    <Compile Include="Assets\Scripts\GameSettings\GameSettings.cs" />
     <Compile Include="Assets\Scripts\GameSettings\ModifierSettings.cs" />
     <Compile Include="Assets\Scripts\Managers\BuyMinionManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ModifierManager.cs" />
@@ -76,7 +77,7 @@
     <Compile Include="Assets\Scripts\Minions\Minion.cs" />
     <Compile Include="Assets\Scripts\Minions\MinionsData.cs" />
     <Compile Include="Assets\Scripts\Minions\MinionSpawner.cs" />
-    <Compile Include="Assets\Scripts\Player\HorseController.cs" />
+    <Compile Include="Assets\Scripts\Minions\MinionSpawnerOld.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TextBoost\TextBoost.cs" />
     <Compile Include="Assets\Scripts\TextBoost\TextBoostData.cs" />

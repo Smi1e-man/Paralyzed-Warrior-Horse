@@ -22,7 +22,7 @@ public class Minion : MonoBehaviour
         while(true)
         {
             yield return new WaitForSeconds(_data.DeltaBoostTime);
-            GameManager._Gm.BalancePlus(_data.BoostBalance);
+            GameManager._Gm.BalanceBananas += _data.BoostBalance;
             //animation number;
             _spawnerText.AddText(_data.BoostBalance, transform.position);
         }

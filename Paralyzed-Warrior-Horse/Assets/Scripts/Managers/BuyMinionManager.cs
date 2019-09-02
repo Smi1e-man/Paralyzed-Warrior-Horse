@@ -17,18 +17,20 @@ public class BuyMinionManager : MonoBehaviour
 
     //public values
     public static Action<float> AddMinion;
+    public static BuyMinionManager _Mm;
+
+    public float MinionPrice { get => _minionPrice; set => _minionPrice = value; }
+    public float MinionNb { get => _minionNb; set => _minionNb = value; }
 
     /// <summary>
     /// Private Methods.
     /// </summary>
     private void Awake()
     {
-        _minionPrice = Resources.Load<BuyMinionSettings>("Settings/BuyMinionSettings").MinionPrice;
-        _minionNb = Resources.Load<BuyMinionSettings>("Settings/BuyMinionSettings").MinionNb;
+        if (_Mm == null)
+            _Mm = this;
         _deltaMinionBoost = Resources.Load<BuyMinionSettings>("Settings/BuyMinionSettings").DeltaMinionBoost;
         _deltaMinionPrice = Resources.Load<BuyMinionSettings>("Settings/BuyMinionSettings").DeltaMinionPrice;
-
-        ChangeText();
     }
 
     private void ChangeText()
@@ -40,16 +42,24 @@ public class BuyMinionManager : MonoBehaviour
     /// <summary>
     /// Public Methods.
     /// </summary>
+    public void InitValue(float price, float nb)
+    {
+        MinionPrice = price;
+        MinionNb = nb;
+
+        ChangeText();
+    }
+
     public void ClickOnButtonBuyMinion()
     {
-        if (GameManager._Gm.GetBalance() >= _minionPrice)
+        float balance = GameManager._Gm.BalanceBananas;
+        if (balance >= _minionPrice)
         {
             //Add minion from Pool on minion zone
             AddMinion(_minionNb);
-            GameManager._Gm.BalanceMinus(_minionPrice);
 
+            GameManager._Gm.BalanceBananas -= _minionPrice;
             _minionNb += _deltaMinionBoost;
-
             _minionPrice *= _deltaMinionPrice;
 
             ChangeText();

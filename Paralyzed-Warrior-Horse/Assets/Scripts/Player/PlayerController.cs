@@ -25,8 +25,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        float currenMod = GameManager._Gm.GetClickModifier();
-        GameManager._Gm.BalancePlus(currenMod);
+        //current modifier
+        float currenMod = ModifierManager._Modif.CurrentModifier;
+        GameManager._Gm.BalanceBananas += currenMod;
         transform.DORotate(_toRotate, _timeRotate, RotateMode.WorldAxisAdd);
         //animation text
         _spawnerText.AddText(currenMod, transform.position);

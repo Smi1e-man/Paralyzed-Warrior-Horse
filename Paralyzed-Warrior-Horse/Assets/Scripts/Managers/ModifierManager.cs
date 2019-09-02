@@ -17,18 +17,21 @@ public class ModifierManager : MonoBehaviour
     private float _deltaClickBoost;
     private float _deltaClickPrice;
 
+    //public values
+    public static ModifierManager _Modif;
+
+    public float PriceModifier { get => _priceModifier; set => _priceModifier = value; }
+    public float CurrentModifier { get => _currentModifier; set => _currentModifier = value; }
+
     /// <summary>
     /// Private Methods.
     /// </summary>
     private void Awake()
     {
-        _priceModifier = Resources.Load<ModifierSettings>("Settings/ModifierSettings").PriceModifier;
-        _currentModifier = Resources.Load<ModifierSettings>("Settings/ModifierSettings").CurrentModifier;
+        if (_Modif == null)
+            _Modif = this;
         _deltaClickBoost = Resources.Load<ModifierSettings>("Settings/ModifierSettings").DeltaClickBoost;
         _deltaClickPrice = Resources.Load<ModifierSettings>("Settings/ModifierSettings").DeltaClickPrice;
-        _boostModifier = _currentModifier * _deltaClickBoost;
-
-        ChangeText();
     }
 
     private void ChangeText()
@@ -41,12 +44,20 @@ public class ModifierManager : MonoBehaviour
     /// <summary>
     /// Public Methods.
     /// </summary>
+    public void InitValue(float price, float current)
+    {
+        PriceModifier = price;
+        CurrentModifier = current;
+        _boostModifier = _currentModifier * _deltaClickBoost;
+
+        ChangeText();
+    }
     public void ClickOnButtonBoost()
     {
-        if (GameManager._Gm.GetBalance() >= _priceModifier)
+        float balance = GameManager._Gm.BalanceBananas;
+        if (balance >= _priceModifier)
         {
-            GameManager._Gm.BalanceMinus(_priceModifier);
-			GameManager._Gm.ClickBuyModifier(_boostModifier);
+            GameManager._Gm.BalanceBananas -= _priceModifier;
             _currentModifier = _boostModifier;
             _boostModifier *= _deltaClickBoost;
             _priceModifier *= _deltaClickPrice;

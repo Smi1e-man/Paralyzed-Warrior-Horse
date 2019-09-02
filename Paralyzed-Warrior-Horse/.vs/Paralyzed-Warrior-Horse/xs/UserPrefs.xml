@@ -6,7 +6,14 @@
           <Node name="Paralyzed-Warrior-Horse" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="GameSettings" expanded="True" />
+                <Node name="Managers" expanded="True" />
+                <Node name="Minions" expanded="True">
+                  <Node name="MinionSpawnerOld.cs" selected="True" />
+                </Node>
+                <Node name="Player" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
