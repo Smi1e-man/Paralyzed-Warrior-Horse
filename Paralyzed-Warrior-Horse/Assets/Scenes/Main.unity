@@ -294,6 +294,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
+        type: 3}
+      propertyPath: _textBalanceBananas
+      value: 
+      objectReference: {fileID: 147806388}
+    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
+        type: 3}
+      propertyPath: _textClickPerSec
+      value: 
+      objectReference: {fileID: 2002919099}
+    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
+        type: 3}
+      propertyPath: _textGoldMinionBoost
+      value: 
+      objectReference: {fileID: 1186451534}
+    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
+        type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 1178303159}
     - target: {fileID: 2531153173879257978, guid: 163cccc950de64f4f8db52f3210ca8f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -349,26 +369,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
-        type: 3}
-      propertyPath: _textBalanceBananas
-      value: 
-      objectReference: {fileID: 147806388}
-    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
-        type: 3}
-      propertyPath: _textClickPerSec
-      value: 
-      objectReference: {fileID: 2002919099}
-    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
-        type: 3}
-      propertyPath: _textGoldMinionBoost
-      value: 
-      objectReference: {fileID: 1186451534}
-    - target: {fileID: 2531153173879257981, guid: 163cccc950de64f4f8db52f3210ca8f6,
-        type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 1178303159}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 163cccc950de64f4f8db52f3210ca8f6, type: 3}
 --- !u!1001 &4521861080293400458
@@ -605,6 +605,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5587571725783006257, guid: 80a7659bf34bc4e70942612f11eea737,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587571725783006257, guid: 80a7659bf34bc4e70942612f11eea737,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587571724702104126, guid: 80a7659bf34bc4e70942612f11eea737,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587571724702104126, guid: 80a7659bf34bc4e70942612f11eea737,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5587571725855831720, guid: 80a7659bf34bc4e70942612f11eea737,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -715,26 +735,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 5587571724702104126, guid: 80a7659bf34bc4e70942612f11eea737,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587571724702104126, guid: 80a7659bf34bc4e70942612f11eea737,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587571725783006257, guid: 80a7659bf34bc4e70942612f11eea737,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587571725783006257, guid: 80a7659bf34bc4e70942612f11eea737,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5587571725732877493, guid: 80a7659bf34bc4e70942612f11eea737,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -893,6 +893,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: MinionSpawnerOld
       objectReference: {fileID: 0}
+    - target: {fileID: 7431306275848894582, guid: 2cb2cc80d12154f6ba3db210a3bde54e,
+        type: 3}
+      propertyPath: _minionPrefab
+      value: 
+      objectReference: {fileID: 1619680841}
+    - target: {fileID: 7431306275848894582, guid: 2cb2cc80d12154f6ba3db210a3bde54e,
+        type: 3}
+      propertyPath: _minionParentZone
+      value: 
+      objectReference: {fileID: 1305203312}
     - target: {fileID: 7431306275848894583, guid: 2cb2cc80d12154f6ba3db210a3bde54e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -948,15 +958,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7431306275848894582, guid: 2cb2cc80d12154f6ba3db210a3bde54e,
-        type: 3}
-      propertyPath: _minionPrefab
-      value: 
-      objectReference: {fileID: 1619680841}
-    - target: {fileID: 7431306275848894582, guid: 2cb2cc80d12154f6ba3db210a3bde54e,
-        type: 3}
-      propertyPath: _minionParentZone
-      value: 
-      objectReference: {fileID: 1305203312}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cb2cc80d12154f6ba3db210a3bde54e, type: 3}

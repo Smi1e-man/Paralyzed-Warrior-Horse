@@ -1,33 +1,17 @@
 ﻿<Properties StartupConfiguration="{F446AB2C-D5F2-4B1A-D825-9B193F3986B3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/TextBoostGoldMinionController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Minions/MinionGold.cs">
     <Files>
       <File FileName="Assets/Scripts/Managers/ScoreManager.cs" Line="107" Column="34" />
       <File FileName="Assets/Scripts/GameSettings/GameSettings.cs" Line="15" Column="33" />
       <File FileName="Assets/Scripts/Managers/GameManager.cs" Line="92" Column="1" />
       <File FileName="Assets/Scripts/Managers/ModifierManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Minions/MinionGold.cs" Line="75" Column="25" />
-      <File FileName="Assets/Scripts/UI/TextBoostGoldMinionController.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/UI/TextBoostGoldMinionController.cs" Line="27" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Paralyzed-Warrior-Horse" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Editor" expanded="True" />
-              <Node name="Resources" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="Bundles" expanded="True" />
-                <Node name="GameSettings" expanded="True" />
-                <Node name="Managers" expanded="True" />
-                <Node name="Minions" expanded="True" />
-                <Node name="Player" expanded="True" />
-                <Node name="TextBoost" expanded="True" />
-                <Node name="UI" expanded="True">
-                  <Node name="TextBoostGoldMinionController.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Paralyzed-Warrior-Horse" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

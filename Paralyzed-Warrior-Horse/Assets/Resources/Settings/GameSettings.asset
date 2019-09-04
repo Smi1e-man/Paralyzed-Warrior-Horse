@@ -16,7 +16,7 @@ MonoBehaviour:
   CurrentMod: 10
   MinionNb: 0
   PriceModif: 20
-  PriceMinion: 50
+  PriceMinion: 30
   BalanceAdsView: 100
   DeltaAdsView: 10
   MinionCoords: []
