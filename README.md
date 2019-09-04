@@ -1,5 +1,5 @@
 # Paralyzed-Warrior-Horse
-### Unity3D | C# | MobileGame | [Name]Paralyzed Warrior Horse : Banana dream
+### Unity3D | C# | MobileGame | Clicker | [Name]Paralyzed Warrior Horse : Banana dream
 Gameplay
 
 <p align="center">
