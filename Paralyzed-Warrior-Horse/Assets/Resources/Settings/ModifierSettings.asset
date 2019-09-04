@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257b6af1f1a054b1a9b3b17b4f3e12c1, type: 3}
   m_Name: ModifierSettings
   m_EditorClassIdentifier: 
-  _priceModifier: 30
-  _currentModifier: 10
-  _deltaClickPrice: 3
+  _deltaClickPrice: 1.2
   _deltaClickBoost: 1.1

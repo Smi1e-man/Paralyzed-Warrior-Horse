@@ -36,7 +36,7 @@ public class BuyMinionManager : MonoBehaviour
     private void ChangeText()
     {
         _textPrice.text = "Price\n" + _minionPrice.ToString("F0");
-        _textNow.text = "NB Current\n" + _minionNb.ToString("F0");
+        _textNow.text = "Current\n" + _minionNb.ToString("F0");
     }
 
     /// <summary>

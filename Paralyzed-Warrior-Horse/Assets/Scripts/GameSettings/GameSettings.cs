@@ -12,6 +12,8 @@ public class GameSettings : ScriptableObject
     public float MinionNb;
     public float PriceModif;
     public float PriceMinion;
+    public float BalanceAdsView;
+    public float DeltaAdsView;
     public List<Vector2> MinionCoords;
     public List<int> MinionDateNb;
 }

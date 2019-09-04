@@ -36,7 +36,6 @@ public class ModifierManager : MonoBehaviour
 
     private void ChangeText()
     {
-        _textBoostModifier.text = "Click\nModifier\n+" + _boostModifier.ToString("F0");
         _textPriceModifier.text = "Price\n" + _priceModifier.ToString("F0");
         _textCurrentModifier.text = "Current\n+" + _currentModifier.ToString("F0");
     }

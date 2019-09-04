@@ -7,7 +7,7 @@ using TMPro;
 public class MinionsData : ScriptableObject
 {
     //private visual values
-    [SerializeField] private Sprite _mainSprite;
+    [SerializeField] Sprite _mainSprite;
     [SerializeField] private TextBoostSpawnerData _spawnerTextData;
     [SerializeField] private int _boostBalance;
     [SerializeField] private float _deltaBoostTime;

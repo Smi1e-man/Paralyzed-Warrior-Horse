@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2913884628c984d748d2ec8166fea174, type: 3}
   m_Name: MinionTwo
   m_EditorClassIdentifier: 
-  _mainSprite: {fileID: 21300000, guid: fc781c7b9e62a4fddaa0040fbad401e2, type: 3}
+  _mainSprite: {fileID: 0}
   _spawnerTextData: {fileID: 11400000, guid: b34fec9077b734d1aab25a01c39d0d11, type: 2}
   _boostBalance: 15
   _deltaBoostTime: 2

@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89caf253f365f4c0aa6286096613fdbe, type: 3}
   m_Name: BuyMinionSettings
   m_EditorClassIdentifier: 
-  _minionPrice: 30
-  _minionNb: 0
   _deltaMinionBoost: 1
-  _deltaMinionPrice: 1.1
+  _deltaMinionPrice: 1.3

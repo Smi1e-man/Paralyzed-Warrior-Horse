@@ -67,14 +67,16 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Bundles\BundleLoader.cs" />
     <Compile Include="Assets\Scripts\GameSettings\BuyMinionSettings.cs" />
     <Compile Include="Assets\Scripts\GameSettings\GameSettings.cs" />
     <Compile Include="Assets\Scripts\GameSettings\ModifierSettings.cs" />
     <Compile Include="Assets\Scripts\Managers\BuyMinionManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ModifierManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Minions\Minion.cs" />
+    <Compile Include="Assets\Scripts\Minions\MinionGold.cs" />
     <Compile Include="Assets\Scripts\Minions\MinionsData.cs" />
     <Compile Include="Assets\Scripts\Minions\MinionSpawner.cs" />
     <Compile Include="Assets\Scripts\Minions\MinionSpawnerOld.cs" />
@@ -83,10 +85,13 @@
     <Compile Include="Assets\Scripts\TextBoost\TextBoostData.cs" />
     <Compile Include="Assets\Scripts\TextBoost\TextBoostSpawner.cs" />
     <Compile Include="Assets\Scripts\TextBoost\TextBoostSpawnerData.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseButtonController.cs" />
+    <Compile Include="Assets\Scripts\UI\TextBoostGoldMinionController.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\UnityAds\link.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -316,6 +321,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.14f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization.Editor">
+      <HintPath>/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Assets/UnityAds/UnityEngine.Monetization.Editor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>/Users/Smile_man/Paralyzed-Warrior-Horse/Paralyzed-Warrior-Horse/Assets/Demigiant/DOTween/DOTween.dll</HintPath>

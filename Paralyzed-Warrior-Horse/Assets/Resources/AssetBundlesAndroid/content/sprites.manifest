@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 442159862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dd479791b5f128659c5f8d38cf97ef0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sprites/Pinguin.png
+- Assets/Resources/Sprites/GoldPinguin.png
+- Assets/Resources/Sprites/box_buy.png
+- Assets/Resources/Sprites/box_basic.png
+- Assets/Resources/Sprites/background.png
+- Assets/Resources/Sprites/Horse.png
+- Assets/Resources/Sprites/Pinguin2.png
+Dependencies: []
